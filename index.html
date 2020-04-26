@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Здорова Родина - мережа аптек</title>
+</head>
+<body>
+    <div id="splash">
+      <img src="img/logo.png" alt="Logo" class="logo">
+    </div>
+
+    <div class="content">
+      <header class="app-header">
+          <div class="container">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <input type="text" class="search" placeholder="Пошук...">
+          </div>
+      </header>
+
+      <div class="subheader">
+          <div>
+              <p>Доставка рецептурних препаратів і не тільки</p>
+              <p>Більше інформації <i class="fa fa-chevron-right"></i></p>
+          </div>
+          <img src="img/delivery.png" alt="Delivery" class="delivery">
+      </div>
+      <div class="grid container">
+        <div class="item">
+            <h4>Аптеки</h4>
+            <p>Знайдіть найближчу аптеку</p>
+            <img src="img/medicine.png" alt="">
+        </div>
+        <div class="item">
+            <h4>Акції та знижки</h4>
+            <p>Отримайте Вашу знижку до 30%</p>
+            <img src="img/medal.png" alt="">
+        </div>
+        <div class="item">
+            <h4>Поради фармацевта</h4>
+            <p></p>
+            <img src="img/nurse.png" alt="">
+        </div>
+        <div class="item">
+            <h4>Онлайн аптека</h4>
+            <p>Безкоштовна доставка від 500 грн</p>
+            <img src="img/shop.png" alt="">
+        </div>
+        <div class="item">
+            <h4>Фотогалерея</h4>
+            <p></p>
+            <img src="img/photo.png" alt="">
+        </div>
+        <div class="item">
+            <h4>Новини компанії</h4>
+            <p>Інформація про нові аптеки та надходження</p>
+            <img src="img/newspaper.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <footer class="app-footer">
+      <ul>
+          <li>
+              <i class="fa fa-heart"></i>
+              На головну
+          </li>
+          <li>
+            <i class="fa fa-barcode"></i>
+            Моя картка
+          </li>
+          <li>
+            <i class="fa fa-user"></i>
+            Кабінет
+          </li>
+          <li>
+            <i class="fa fa-map-marker"></i>
+            Знайти аптеку
+          </li>
+      </ul>
+    </footer>
+
+    <script>
+        setTimeout(() => {
+          document.getElementById('splash').classList.add('fade')
+        }, 2000);
+    </script>
+</body>
+</html>
